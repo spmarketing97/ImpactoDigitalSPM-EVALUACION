@@ -1,0 +1,15 @@
+# Archivo de variables de entorno - RENOMBRAR a .env
+# IMPORTANTE: Este archivo .env NO debe subirse a GitHub
+# Solo subir el archivo .env.example
+
+# Configuración de email para ImpactoDigitalSPM
+EMAIL_USER=solucionesworld2016@gmail.com
+EMAIL_PASSWORD=jgtq ucny jpxc nyoy
+
+# Configuración Flask
+FLASK_ENV=production
+PORT=5000
+
+# Configuración adicional de seguridad
+SECRET_KEY=tu_clave_secreta_aqui_genera_una_aleatoria
+DEBUG=False 

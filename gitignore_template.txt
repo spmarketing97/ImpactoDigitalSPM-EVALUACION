@@ -1,0 +1,61 @@
+# RENOMBRAR este archivo a .gitignore
+# Archivos de seguridad y credenciales - NO SUBIR A GITHUB
+
+# Variables de entorno (CREDENCIALES)
+.env
+.env.local
+.env.production
+.env.staging
+env_example.txt
+
+# Archivos de configuración con credenciales
+config.py
+credentials.json
+secrets.json
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.log
+
+# Base de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Archivos de editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de respaldo
+*.bak
+*.backup
+*~
+
+# Certificados y llaves
+*.key
+*.pem
+*.crt
+*.p12
+
+# Archivos de deployment
+.deploy/
+deployment_config.json
+
+# NOTA IMPORTANTE:
+# - SÍ subir: .env.example, .gitignore, README.md, archivos .py principales
+# - NO subir: .env, credenciales, archivos de configuración locales 
